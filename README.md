@@ -1,5 +1,5 @@
-# MGC-Net
-A Copy-Move Forgery Localization Method Based on Deep Learning
+# MGCFDN
+MGCFDN: An Image Copy-Move Forgery Detection Method Based on Multi-Granularity Feature Consistency
 
 About to be open-sourced.
 
