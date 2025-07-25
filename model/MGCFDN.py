@@ -227,44 +227,7 @@ def calc_flops_params():
     print('Params: ' + params)
 
 
-def weight_to_update():
-    model = MultiGranularityConsistencyForgeryDetectionNet(out_channel=3)
-    model_weight = model.state_dict()
-    weight = torch.load(
-        './train/HomoMatchNet_ST/save_model/coverage_model/model_bg-f1*90.68_source-f1*34.79_target-f1*39.02_acc*87.97_19_100000.pth')
-    # 创建新的权重字典
-    new_weights = model_weight.copy()
-
-    # 手动映射权重名称
-    name_mapping = {
-        'bottom_share_encoder.detail_feature_encoder.layer1': 'visual_feature_extractor.layer1',
-        'bottom_share_encoder.detail_feature_encoder.layer2': 'visual_feature_extractor.layer2',
-        'bottom_share_encoder.detail_feature_encoder.layer3': 'visual_feature_extractor.layer3',
-        'bottom_share_encoder.aspp_forge': 'visual_feature_extractor.contour_aspp',
-        'homoMatch.alpha': 'multi_granularity_consistency_module.alpha',
-        'homoMatch.corrAttentionModule': 'multi_granularity_consistency_module.conv_select',
-        'homoMatch.aspp_v': 'multi_granularity_consistency_module.aspp',
-        'homoMatch.bestCorrModule.0': 'multi_granularity_consistency_module.fine_grained_module.conv_pre.0',
-        'homoMatch.bestCorrModule.1': 'multi_granularity_consistency_module.fine_grained_module.conv_pre.1',
-        'homoMatch.bestCorrModule.3': 'multi_granularity_consistency_module.fine_grained_module',
-        'homoMatch.bestCorrModule.4': 'multi_granularity_consistency_module.fine_grained_module.conv_next.0',
-        'homoMatch.bestCorrModule.5': 'multi_granularity_consistency_module.fine_grained_module.conv_next.1',
-        'seg_homo_head': 'decode_head',
-    }
-
-    # 只替换名称和形状都匹配的参数
-    for key in weight.keys():
-        for name_key in name_mapping.keys():
-            if name_key in key:
-                new_key = key.replace(name_key, name_mapping[name_key])
-                new_weights[new_key] = weight[key]
-                print(f'{key} => {new_key}')
-                break;
-    # 可选：保存适配后的权重
-    torch.save(new_weights, "../weight/MGCFDN_ST.pth")
-
-
 from collections import OrderedDict
 
 if __name__ == '__main__':
-    weight_to_update()
+    calc_flops_params()
