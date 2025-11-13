@@ -2,8 +2,8 @@
 
 In this repository, we release many paper related things, including
 - version dependency of our code environment
-- a pretrained MGCFDN model weight,to be updated [weight]()
-- USC-ISI CMFD,CASIA CMFD, DEFACTO CMFD,COVERAGE,and CoMoFoD dataset ,to be updated [dataset]()
+- a pretrained MGCFDN model weight,to be updated [weight](https://pan.baidu.com/s/1ZAPkaXl0S38kinP2wggQ1Q?pwd=2uwg)
+- USC-ISI CMFD,CASIA CMFD, DEFACTO CMFD,COVERAGE,and CoMoFoD dataset ,to be updated [dataset](https://pan.baidu.com/s/1xHjjCgZKay6vU1fQeY6nhg?pwd=263y)
 - training and testing of our methods, preprocessing steps, hyperparameter tuning
 - 
 1.The environment for our code can execute the following command:
@@ -31,5 +31,12 @@ When the paper is published, we will open source our all code.
 ## Citation
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
 ```
-    ...
+    @article{TU2025132029,
+    title = {MGCFDN: Image copy-move forgery detection method based on multi-granularity feature consistency},
+     author = {Hang Tu and Peng Liang and Xiaoguang Lu and Huimin Zhao}
+    journal = {Neurocomputing},
+    pages = {132029},
+    year = {2025},
+    doi = {https://doi.org/10.1016/j.neucom.2025.132029}
+     }
 ```
