@@ -1,5 +1,8 @@
 # MGCFDN: An Image Copy-Move Forgery Detection Method Based on Multi-Granularity Feature Consistency
 
+#### algorithm framework diagram
+![The algorithm framework diagram proposed.](./image/MGCFDN.png)
+
 In this repository, we release many paper related things, including
 - version dependency of our code environment
 - a pretrained MGCFDN model weight,to be updated [weight](https://pan.baidu.com/s/1ZAPkaXl0S38kinP2wggQ1Q?pwd=2uwg)
@@ -21,8 +24,10 @@ python test_st_core.py
 `
 python test.py
 `
-
 Please observe the license agreement for our code [license](LICENSE).
+
+#### Visual visualization of four consistency features
+![Visual visualization of four consistency features.](./image/multi_granularity_feature.png)
 
 ## Citation
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
