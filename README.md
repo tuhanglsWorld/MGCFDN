@@ -31,12 +31,12 @@ When the paper is published, we will open source our all code.
 ## Citation
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
 ```
-    @article{TU2025132029,
+@article{TU2025132029,
     title = {MGCFDN: Image copy-move forgery detection method based on multi-granularity feature consistency},
-     author = {Hang Tu and Peng Liang and Xiaoguang Lu and Huimin Zhao}
+    author = {Hang Tu and Peng Liang and Xiaoguang Lu and Huimin Zhao}
     journal = {Neurocomputing},
     pages = {132029},
     year = {2025},
     doi = {https://doi.org/10.1016/j.neucom.2025.132029}
-     }
+}
 ```
