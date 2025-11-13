@@ -24,6 +24,7 @@ python test_st_core.py
 `
 python test.py
 `
+
 Please observe the license agreement for our code [license](LICENSE).
 
 #### Visual visualization of four consistency features
