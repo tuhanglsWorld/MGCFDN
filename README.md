@@ -5,7 +5,7 @@ In this repository, we release many paper related things, including
 - a pretrained MGCFDN model weight,to be updated [weight](https://pan.baidu.com/s/1ZAPkaXl0S38kinP2wggQ1Q?pwd=2uwg)
 - USC-ISI CMFD,CASIA CMFD, DEFACTO CMFD,COVERAGE,and CoMoFoD dataset ,to be updated [dataset](https://pan.baidu.com/s/1xHjjCgZKay6vU1fQeY6nhg?pwd=263y)
 - training and testing of our methods, preprocessing steps, hyperparameter tuning
-- 
+
 1.The environment for our code can execute the following command:
 `
 pip install -r requirements.txt
@@ -23,10 +23,6 @@ python test.py
 `
 
 Please observe the license agreement for our code [license](LICENSE).
-
-About to be open-sourced.
-
-When the paper is published, we will open source our all code.
 
 ## Citation
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
