@@ -34,12 +34,12 @@ Please observe the license agreement for our code [license](LICENSE).
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
 ```
 @article{TU2026132029,
-title = {MGCFDN: Image copy-move forgery detection method based on multi-granularity feature consistency},
-author = {Hang Tu and Peng Liang and Xiaoguang Lu and Huimin Zhao},
-journal = {Neurocomputing},
-volume = {664},
-pages = {132029},
-year = {2026},
-doi = {https://doi.org/10.1016/j.neucom.2025.132029}
+  title = {MGCFDN: Image copy-move forgery detection method based on multi-granularity feature consistency},
+  author = {Hang Tu and Peng Liang and Xiaoguang Lu and Huimin Zhao},
+  journal = {Neurocomputing},
+  volume = {664},
+  pages = {132029},
+  year = {2026},
+  doi = {https://doi.org/10.1016/j.neucom.2025.132029}
 }
 ```
