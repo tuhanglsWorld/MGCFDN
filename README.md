@@ -5,7 +5,7 @@
 
 In this repository, we release many paper related things, including
 - version dependency of our code environment
-- a pretrained MGCFDN model weight,to be updated [weight](https://pan.baidu.com/s/1ZAPkaXl0S38kinP2wggQ1Q?pwd=2uwg)
+- a pretrained MGCFDN model weight,to be updated [baidu cloud](https://pan.baidu.com/s/1ZAPkaXl0S38kinP2wggQ1Q?pwd=2uwg) [google drive](https://drive.google.com/drive/folders/1oPKynwkbdKHyOCMZWmc9pMzBqM-wZ7dP?usp=sharing)
 - USC-ISI CMFD,CASIA CMFD, DEFACTO CMFD,COVERAGE,and CoMoFoD dataset ,to be updated [dataset](https://pan.baidu.com/s/1xHjjCgZKay6vU1fQeY6nhg?pwd=263y)
 - training and testing of our methods, preprocessing steps, hyperparameter tuning
 
