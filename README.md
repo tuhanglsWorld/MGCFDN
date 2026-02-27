@@ -7,6 +7,7 @@ In this repository, we release many paper related things, including
 - version dependency of our code environment
 - a pretrained MGCFDN model weight,to be updated [baidu cloud](https://pan.baidu.com/s/1ZAPkaXl0S38kinP2wggQ1Q?pwd=2uwg) [google drive](https://drive.google.com/drive/folders/1oPKynwkbdKHyOCMZWmc9pMzBqM-wZ7dP?usp=sharing)
 - USC-ISI CMFD,CASIA CMFD, DEFACTO CMFD,COVERAGE,and CoMoFoD dataset ,to be updated [dataset](https://pan.baidu.com/s/1xHjjCgZKay6vU1fQeY6nhg?pwd=263y)
+  or [USC-ISI](https://github.com/isi-vista/BusterNet/tree/master/Data/USCISI-CMFD-Small)、[CASIA](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset)、[DEFACTO](https://www.kaggle.com/datasets/defactodataset/defactocopymove)、[CoMoFoD](https://www.vcl.fer.hr/comofod/)、[Coverage](https://github.com/wenbihan/coverage)
 - training and testing of our methods, preprocessing steps, hyperparameter tuning
 
 1.The environment for our code can execute the following command:
