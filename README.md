@@ -9,6 +9,7 @@ In this repository, we release many paper related things, including
 - USC-ISI CMFD,CASIA CMFD, DEFACTO CMFD,COVERAGE,and CoMoFoD dataset ,to be updated [dataset](https://pan.baidu.com/s/1xHjjCgZKay6vU1fQeY6nhg?pwd=263y)
   or [USC-ISI](https://github.com/isi-vista/BusterNet/tree/master/Data/USCISI-CMFD-Small)、[CASIA](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset)、[DEFACTO](https://www.kaggle.com/datasets/defactodataset/defactocopymove)、[CoMoFoD](https://www.vcl.fer.hr/comofod/)、[Coverage](https://github.com/wenbihan/coverage)
 - training and testing of our methods, preprocessing steps, hyperparameter tuning
+- Our paper link [Paper](https://www.sciencedirect.com/science/article/pii/S0925231225027018?via%3Dihub).
 
 1.The environment for our code can execute the following command:
 `
@@ -30,6 +31,7 @@ Please observe the license agreement for our code [license](LICENSE).
 
 #### Visual visualization of four consistency features
 ![Visual visualization of four consistency features.](./image/multi_granularity_feature.png)
+
 
 ## Citation
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
